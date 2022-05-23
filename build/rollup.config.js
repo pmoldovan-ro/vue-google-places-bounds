@@ -12,7 +12,6 @@ const config = {
     exports: 'named',
     globals: {
       'load-js': 'loadJS',
-      'vuetify/lib': 'Vuetify'
     }
   },
   plugins: [
@@ -21,7 +20,7 @@ const config = {
     })
     //
   ],
-  external: ['load-js', 'vuetify/lib']
+  external: ['load-js']
 };
 
 // Only minify browser (iife) version

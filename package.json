@@ -1,6 +1,6 @@
 {
   "name": "vue-google-places-bounds",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "Vue Google Places + Bounds Autocomplete",
   "main": "dist/vue-google-places.umd.js",
   "module": "dist/vue-google-places.esm.js",
@@ -21,7 +21,8 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "load-js": "^3.0.3"
+    "load-js": "^3.0.3",
+    "vue-google-places-bounds": "^0.1.7"
   },
   "devDependencies": {
     "minimist": "^1.2.0",

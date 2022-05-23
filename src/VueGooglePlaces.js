@@ -164,7 +164,7 @@ export default {
       if (this.strictBounds) {
         options.strictBounds = this.strictBounds;
         
-        if(this.bounds?.length) {
+        if(this.bounds.length) {
           const googleBounds = new window.google.maps.LatLngBounds(
             new google.maps.LatLng(this.bounds[0], this.bounds[1]),
             new google.maps.LatLng(this.bounds[2], this.bounds[3]),
